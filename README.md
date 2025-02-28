@@ -1,5 +1,6 @@
 # CS305SoftwareSecurity
-Briefly summarize your client, Artemis Financial, and its software requirements. Who was the client? What issue did the company want you to address?
+Briefly summarize your client, Artemis Financial, and its software requirements. Who was the client? What issue did the company want you to address?/n
+Artemis Financial is a consulting company that specializes in developing individualized financial plans for its customers, including savings, retirement, investments, and insurance. They aim to modernize their operations and use the most current and effective software security measures.
 What did you do well when you found your client’s software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall well-being?
 Which part of the vulnerability assessment was challenging or helpful to you?
 How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?

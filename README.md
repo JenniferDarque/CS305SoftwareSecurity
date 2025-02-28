@@ -1,9 +1,16 @@
 # CS305SoftwareSecurity
-Briefly summarize your client, Artemis Financial, and its software requirements. Who was the client? What issue did the company want you to address?/n
+Briefly summarize your client, Artemis Financial, and its software requirements. Who was the client? What issue did the company want you to address?
+
 Artemis Financial is a consulting company that specializes in developing individualized financial plans for its customers, including savings, retirement, investments, and insurance. They aim to modernize their operations and use the most current and effective software security measures.
 What did you do well when you found your client’s software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall well-being?
+I felt I did well on the functional testing, identifying outdated application versions and correcting the issues that were found. This helps to ensure that vulnerabilities are up to date per the NVD and that the software works at peak performance. It closes the vulnerabilies making it harder for external attacks to take advantage of known points of weakness and makes the system more secure. 
 Which part of the vulnerability assessment was challenging or helpful to you?
+Creating the Certificate Generation was challanging to me, in part due to my own system securities that I had to work around, but also due to an issue where the keystore.exe file became corrupted. I had to uninstall and reinstall the jdk entirely and start over. 
 How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
+I implemented AES to encrypt sensitive data, ensuring data integrity. I used an SHA-256 hash algorithm for ensuring better security through encryption. I also converted it from an HTTP to HTTPS to encrypt and protect data during transit. 
 How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
+I manually reviewed the code to identify syntactical, logical, and security vulnerabilities. I used secondary static testing using the dependency-check tool to ensure that the refactored code complies with software security enhancements. The I reviewed the output of the dependency-check tool to identify and repair any newly introduced vulnerabilities.
 What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
+I really liked the use of the dependency-check tool and found that very helpful. I am sure I will find it helpful in the future to ensure vunerabilities. I also found that I learned a lot when my keytool.exe became corrupted. I had to do a lot of research on identifying what the issue was since the system error was not clear on what the problem was. 
 Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
+I feel showing the refactored code, both the beginning work and the end result would be very helpful. Additionally, showing the creation of the certification and the work done on the hash algorithm would be great to show the knowledge gained.
